@@ -1,0 +1,8 @@
+= Awesome Norwegian
+
+== Dictionaries / Ordbøker
+
+* https://ordbok.uib.no/#[Bokmålsordboka | Nynorskordboka]
+* https://lexin.oslomet.no/#/[LEXIN-ordbøker]
+* https://www.naob.no/#[Det Norske Akademis ordbok]
+* https://www.dinordbok.no/#[DinOrdbok]
