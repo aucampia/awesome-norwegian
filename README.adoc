@@ -2,5 +2,5 @@
 
 These are some lists of things.
 
-* link:./norwegian[List of things pertaining to the Norwegian language]
-* link:./semantic-technology[Semantic technology list]
+* link:./norwegian.adoc[List of things pertaining to the Norwegian language]
+* link:./semantic-technology.adoc[Semantic technology list]
