@@ -1,13 +1,6 @@
-= Awesome Norwegian
+= Some lists
 
-== Dictionaries / Ordbøker
+These are some lists of things.
 
-* https://ordbok.uib.no/#[Bokmålsordboka | Nynorskordboka]
-* https://lexin.oslomet.no/#/[LEXIN-ordbøker]
-* https://www.naob.no/#[Det Norske Akademis ordbok]
-* https://www.dinordbok.no/#[DinOrdbok]
-
-//
-
-* https://w.wiki/NyA#[Wikidata List]
-
+* link:./norwegian[List of things pertaining to the Norwegian language]
+* link:./semantic-technology[Semantic technology list]

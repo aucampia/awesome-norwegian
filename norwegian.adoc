@@ -1,0 +1,37 @@
+:doctype: article
+:numbered:
+:toc: left
+:toclevels: 5
+:sectnumlevels: 5
+:sectanchors:
+:sectids:
+:sectlinks:
+= Awesome Norwegian
+
+== Dictionaries / Ordbøker
+
+* https://ordbok.uib.no/#[Bokmålsordboka | Nynorskordboka]
+* https://lexin.oslomet.no/#/[LEXIN-ordbøker]
+* https://www.naob.no/#[Det Norske Akademis ordbok]
+* https://www.dinordbok.no/#[DinOrdbok]
+* https://www.wiktionary.org/#[Wiktionary]
+** https://en.wiktionary.org/wiki/Wiktionary:Main_Page#[English Wiktionary]
+** https://no.wiktionary.org/wiki/Wiktionary:Forside#[Norwegian (Bokmål) Wiktionary]
+** https://nn.wiktionary.org/wiki/Hovudside[Norwegian Nynorsk Wiktionary]
+* https://glosbe.com/
+** https://glosbe.com/nb
+//
+
+* https://w.wiki/NyF#[Wikidata List]
+
+== Unorganized
+
+* http://grammatikk.com/
+* https://www.sprakradet.no/Klarsprak/skrivehjelp/Skriverad/Hjelpemiddel-paa-nettet-og-i-handelen/
+
+
+////
+nordli
+ark
+tanum
+////
