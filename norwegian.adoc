@@ -11,24 +11,169 @@
 == Dictionaries / Ordbøker
 
 * https://ordbok.uib.no/#[Bokmålsordboka | Nynorskordboka]
+** https://ordbok.uib.no/perl/ordbok.cgi?OPP=&bokmaal=+&ordbok=bokmaal
+** https://ordbok.uib.no/perl/ordbok.cgi?OPP=&nynorsk=+&ordbok=nynorsk
 * https://lexin.oslomet.no/#/[LEXIN-ordbøker]
 * https://www.naob.no/#[Det Norske Akademis ordbok]
 * https://www.dinordbok.no/#[DinOrdbok]
+** https://www.dinordbok.no/en/english-norwegian/
+** https://www.dinordbok.no/norsk-engelsk/
 * https://www.wiktionary.org/#[Wiktionary]
 ** https://en.wiktionary.org/wiki/Wiktionary:Main_Page#[English Wiktionary]
 ** https://no.wiktionary.org/wiki/Wiktionary:Forside#[Norwegian (Bokmål) Wiktionary]
 ** https://nn.wiktionary.org/wiki/Hovudside[Norwegian Nynorsk Wiktionary]
 * https://glosbe.com/
 ** https://glosbe.com/nb
+** https://glosbe.com/nn
+* https://en.bab.la/
+** https://en.bab.la/dictionary/norwegian-english/
+** https://en.bab.la/dictionary/english-norwegian/
+* https://dictionary.cambridge.org/dictionary/english-norwegian/
 //
 
 * https://w.wiki/NyF#[Wikidata List]
+
+////
+SELECT DISTINCT ?item ?itemLabel ?itemDescription ?language ?languageLabel ?website WHERE {
+  ?item wdt:P31 / wdt:P279* wd:Q55623087.
+  OPTIONAL { ?item ( wdt:P856 | wdt:P953 ) ?website }.
+  OPTIONAL { ?item wdt:P407 ?language. ?language wdt:P279* wd:Q9043 }.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+
+SELECT DISTINCT ?item ?itemNativeLabel ?itemDescription ?accessStatusLabel ?website WHERE {
+  ?item wdt:P31 / wdt:P279* wd:Q23622.
+  ?item wdt:P407 / wdt:P279* wd:Q9043.
+  OPTIONAL { ?item ( wdt:P1705| wdt:P1476 | wdt:P1448 ) ?itemNativeLabel }.
+  OPTIONAL { ?item ( wdt:P856 | wdt:P953 ) ?website }.
+  ## OPTIONAL { ?item wdt:P407 ?language }.
+  OPTIONAL { ?item (wdt:P31 / wdt:P279*)? / wdt:P6954 ?accessStatus }.
+  SERVICE wikibase:label { bd:serviceParam wikibase:language "[AUTO_LANGUAGE],en". }
+}
+////
+
+== Pronuctioation
+
+* https://forvo.com/word/gjerne/#no
+
+== Translation
+
+* https://translate.google.com/#view=home&op=translate&sl=no&tl=en&text=verdens
+* https://translate.google.com/#view=home&op=translate&sl=en&tl=no&text=verdens
+
+== Books
+
+=== Libre/Gratis
+
+* https://en.wikibooks.org/wiki/Introduction_to_Nynorsk
+* https://en.wikibooks.org/wiki/Norwegian
+
+== Courses
+
+
+* https://www.futurelearn.com/courses/norwegian
+
+== Learning
+
+* https://app.memrise.com/courses/english/norwegian/
+
+== Grammar
+
+* https://wiki.ucl.ac.uk/display/ScanStuds/The+Quick+Guide+to+Norwegian+grammar
+* https://wiki.ucl.ac.uk/display/ScanStuds/Norwegian+Verb+Tenses+-+Past
+* http://grammatikk.com/
+
+== Course Materils
+
+* https://norskna.portfolio.no/
+** https://norskna.portfolio.no/read_container/2bf5ff7c-1791-4540-8e99-5a0ff118f023[Norsk nå! - A1]
+* https://www.ntnu.edu/now
+* https://www.ntnu.edu/now2
+* https://nyinorge.portfolio.no/
+* https://www.learnnorwegiannaturally.com/
+* http://www.learn-norwegian.net/
+
+== Voice Recording
+
+https://recordmp3online.com/
+https://online-voice-recorder.com/
+https://www.speakpipe.com/voice-recorder
+https://h5p.org/audio-recorder
+https://virtualspeech.com/voice-recorder
+
+```bash
+gnome-sound-recorder
+deepin-voice-recorder
+sox -t pulseaudio default recording.mp3
+sox -t pulseaudio -c 1 default recording.mp3
+ffmpeg -f pulse -i default recording.mp3
+```
+
+== Word/Phrase/Abbrevation Lists
+
+* https://www.sprakradet.no/sprakhjelp/Skriveregler/Forkortinger/
+*
+
+== Other Resource Lists
+
+* https://www.uio.no/english/about/collaboration/academic-dugnad/resources/norwegian.html
+* https://forum.duolingo.com/comment/17456049/Nynorsk-resources
+
+
+== Video & Sound
+
+=== Alphabet
+
+* https://www.youtube.com/watch?v=GZe4iQ21sRw
+* https://norskna.portfolio.no/read/8e01e9c6-d33c-4892-b356-71115aad3758
+
+=== YouTube Channels
+
+* https://www.youtube.com/channel/UCbrUYR892qBNQyY3DEqfTBg
+*
 
 == Unorganized
 
 * http://grammatikk.com/
 * https://www.sprakradet.no/Klarsprak/skrivehjelp/Skriverad/Hjelpemiddel-paa-nettet-og-i-handelen/
+* https://www.kompetansenorge.no/Norsk-og-samfunnskunnskap/Nettbasert-opplaring/nettressurser-for-a-lare-norsk/
+* https://www.kompetansenorge.no/Norsk-og-samfunnskunnskap/Godkjente-tilbydere-av-norskopplaring/providers-of-norwegian-language-tuition/
+* http://elevrom.sprakradet.no/skolen/minigrammatikk/tema/hovudreglane_for_substantivboying
 
+* https://nynorsksenteret.no/nynorsk-for-minoritetsspraklege/nynorsk-grammatikk-for-minoritetsspraklege
+
+* https://www.memrise.com/course/2092781/nynorsk-for-the-language-council-short-grammar/
+* https://en.wikipedia.org/wiki/Nynorsk
+
+
+* https://www.link.cs.cmu.edu/link/
+
+
+* https://en.wiktionary.org/wiki/Category:Norwegian_Bokm%C3%A5l_phrases
+* https://en.wiktionary.org/wiki/Category:Norwegian_Bokm%C3%A5l_phrasebook
+* https://en.wiktionary.org/wiki/Category:Norwegian_phrasebook
+* https://en.wiktionary.org/wiki/Category:Norwegian_phrases
+* https://en.wiktionary.org/wiki/Category:Phrases_by_language
+* https://en.wiktionary.org/wiki/Category:English_cardinal_numbers
+* https://en.wiktionary.org/wiki/Category:English_phrasebook
+* https://en.wiktionary.org/wiki/Category:English_phrasebook/Greetings
+
+* https://en.wikipedia.org/wiki/Wikipedia:Translate_us
+
+* https://en.wikipedia.org/wiki/Help:IPA/Norwegian
+
+* https://www.learnnorwegiannaturally.com/learn-norwegian-resources/
+* http://elevrom.sprakradet.no/
+
+* https://translatewiki.net/
+* https://tatoeba.org/eng/
+* https://crowdin.com/projects#showcases
+
+* http://www.hf.ntnu.no/now/hardcopies/Pronunciation.pdf
+* https://www.ntnu.edu/now/2/pronunciation
+* https://typecraft.org/tc2wiki/Classroom:Norwegian_Grammar_Checking
+
+* https://forskning.no/
 
 ////
 nordli

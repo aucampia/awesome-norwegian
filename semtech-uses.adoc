@@ -1,0 +1,75 @@
+= ...
+
+
+----
+https://en.wikipedia.org/wiki/SNOMED_CT
+https://schema.org/
+https://ogp.me/
+
+https://dx.doi.org/ - https://citation.crosscite.org/docs.html
+https://opencitations.net/model
+
+
+----
+
+
+* https://orcid.org/
+** https://github.com/ORCID/ORCID-Source/blob/master/CONTENT_NEGOTIATION.md
+** https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/#easy-faq-3840
+
+* http://obofoundry.org/
+* https://en.wikipedia.org/wiki/Fast_Healthcare_Interoperability_Resources#[Fast Healthcare Interoperability Resources]
+
+* gov.uk
+** https://ckan.publishing.service.gov.uk/dataset?res_format=RDF&_res_format_limit=0[RDF Datasets]
+** https://ckan.publishing.service.gov.uk/dataset?res_format=SPARQL&_res_format_limit=0[SPARQL Endpoints]
+** https://opendatacommunities.org/data_home
+** https://ukparliament.github.io/ontologies/
+
+* europa.eu
+** http://rdfdata.eionet.europa.eu/
+** https://data.europa.eu/euodp/linked-data
+** https://data.europa.eu/euodp/en/data/dataset?q=rdf&ext_boolean=all&sort=
+** https://data.europa.eu/euodp/en/data/group/sparql-endpoints
+
+* https://www.europeandataportal.eu/sparql-manager/en/
+
+
+* https://data.nasa.gov/ontologies/atmonto/index.html
+* https://catalog.data.gov/dataset?res_format=RDF&_res_format_limit=0
+* https://catalog-next.data.gov/dataset?res_format=RDF&_res_format_limit=0
+
+
+== Ontology uses
+
+=== Datacube
+
+* https://www.w3.org/2011/gld/wiki/Data_Cube_Vocabulary
+* https://www.w3.org/2011/gld/wiki/Data_Cube_Implementations
+* https://www.w3.org/2011/gld/wiki/Main_Page
+
+//
+
+* https://environment.data.gov.uk/bwq/
+** https://environment.data.gov.uk/bwq/doc/api-reference-v0.6.html
+
+
+* http://linked-statistics.gr/download_data.php#datasets
++
+[source, bash]
+----
+rdfpipe http://linked-statistics.gr/dataDump/economic/A1602_SAM04_TB_DC_00_2011_01A_F_GR-20150124091627.rdf -o ttl
+rdfpipe http://linked-statistics.gr/structure/economic/A1602_SAM04_TB_DC_00_2011_01A_F_GR-20150124091627-dsd.rdf -o ttl
+----
+
+* https://www.w3.org/TR/eo-qb/
+* http://data.e-stat.go.jp/lodw/en
+
+
+== Dump
+
+* https://www.omg.org/hot-topics/finance.htm
+* https://data.gesis.org/lodcc/2017-08/domain_cross_domain.html
+
+http://sms.risis.eu/
+https://www.w3.org/2011/gld/wiki/Main_Page

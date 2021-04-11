@@ -1,0 +1,356 @@
+:doctype: article
+:numbered:
+:toc: right
+:toclevels: 5
+:sectnumlevels: 5
+:sectanchors:
+:sectids:
+:sectlinks:
+= Semantic Technology
+
+== sites/aggregators
+
+http://www.obofoundry.org/
+http://www.ontobee.org/
+http://purl.obolibrary.org/
+https://bioportal.bioontology.org/
+http://oegov.us/
+https://www.ebi.ac.uk/ols/index
+http://ontologydesignpatterns.org/wiki/Main_Page
+http://sioc-project.org/old/node/192.html
+https://onki.fi/
+https://zenodo.org/record/32717#.XwYfbHX7RUQ
+* http://lov.linkeddata.es/dataset/lov/#[Linked Open Vocabularies (LOV)]
+
+== lists
+
+* https://www.w3.org/wiki/Lists_of_ontologies
+* https://www.w3.org/wiki/Lists_of_ontologies#Good_Ontologies
+* https://www.w3.org/wiki/Ontology_repositories
+* https://www.w3.org/wiki/Good_Ontologies
+* https://www.w3.org/wiki/Ontology_Dowsing
+* https://protegewiki.stanford.edu/wiki/Protege_Ontology_Library
+* https://www.w3.org/wiki/TaskForces/CommunityProjects/LinkingOpenData/CommonVocabularies
+
+== Organizations
+
+* https://vocab.org/
+* https://www.w3.org/
+* http://rdfs.org/
+* http://vocab.deri.ie/
+
+=== W3C / w3.org
+
+
+
+* https://www.w3.org/TR/vocab-data-cube/#[The RDF Data Cube Vocabulary]
+* https://www.w3.org/TR/vocab-ssn/#[Semantic Sensor Network Ontology]
+
+
+* https://www.w3.org/TR/owl-time/#[Time Ontology in OWL]
+
+* https://www.w3.org/TR/dx-prof/#[The Profiles Vocabulary]
+* https://www.w3.org/ns/person#[ISA Programme Person Core Vocabulary]
+* https://www.w3.org/TR/vocab-org/#[The Organization Ontology]
+
+* https://www.w3.org/ns/prov#[The PROV Namespace]
+* https://www.w3.org/TR/prov-dm/#[PROV-DM: The PROV Data Model]
+* https://www.w3.org/TR/prov-o/#[PROV-O: The PROV Ontology]
+
+* https://www.w3.org/2009/08/skos-reference/skos.html#[SKOS Simple Knowledge Organization System Namespace Document]
+
+* https://www.w3.org/TR/vocab-adms/#[Asset Description Metadata Schema (ADMS)]
+* https://www.w3.org/TR/vcard-rdf/#[vCard Ontology - for describing People and Organizations]
+
+
+* https://www.w3.org/TR/vocab-dcat-2/#[Data Catalog Vocabulary (DCAT) Version 2]
+* https://www.w3.org/TR/vcard-rdf/#[vCard Ontology - for describing People and Organizations]
+
+* https://www.w3.org/TR/skos-reference/#[SKOS Simple Knowledge Organization System Reference]
+
+* https://www.w3.org/TR/odrl-model/#[ODRL Information Model 2.2]
+* https://www.w3.org/TR/odrl-vocab/#[ODRL Vocabulary & Expression 2.2]
+
+
+* https://www.w3.org/TR/annotation-vocab/#[Web Annotation Vocabulary]
+
+* https://www.w3.org/TR/activitystreams-core/#[Activity Streams 2.0]
+* https://www.w3.org/TR/activitystreams-vocabulary/#[Activity Vocabulary]
+
+* https://www.w3.org/TR/annotation-model/#[Web Annotation Data Model]
+* https://www.w3.org/TR/annotation-protocol/#[Web Annotation Protocol]
+
+* https://www.w3.org/2003/12/exif/#[Exif vocabulary workspace - RDF Schema]
+
+* https://www.w3.org/TR/Content-in-RDF10/#[Representing Content in RDF 1.0]
+* https://www.w3.org/TR/HTTP-in-RDF10/#[HTTP Vocabulary in RDF 1.0]
+
+* https://www.w3.org/ns/locn#[ISA Programme Location Core Vocabulary]
+
+
+lineage
+family
+
+Other:
+
+
+* https://www.w3.org/OWL/#[]
+* https://www.w3.org/TR/sdw-ucr/#[Spatial Data on the Web Use Cases & Requirements]
+* https://www.w3.org/TR/covjson-overview/#[Overview of the CoverageJSON format]
+
+
+== Purposes
+
+=== Metadata
+
+* https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#[DCMI Metadata Terms]
+** http://purl.org/dc/terms/[]
+** http://purl.org/dc/elements/1.1/[]
+
+
+* https://www.w3.org/TR/vocab-dcat/#[Data Catalog Vocabulary (DCAT) - Version 2]
+
+* The Open Digital Rights Language (ODRL) 2.2
+** https://www.w3.org/TR/odrl-model/#[ODRL Information Model 2.2]
+** https://www.w3.org/TR/odrl-vocab/#[ODRL Vocabulary & Expression 2.2]
+
+
+* http://vocab.deri.ie/void#[Vocabulary of Interlinked Datasets (VoID)]
+
+* PROV Model: provenance interchange on the web
+** https://www.w3.org/TR/prov-primer/#[PROV Model Primer]
+** https://www.w3.org/ns/prov#[The PROV Namespace]
+** https://www.w3.org/TR/prov-o/#[PROV-O: The PROV Ontology]
+** https://www.w3.org/TR/prov-dm/#[PROV-DM: The PROV Data Model]
+** https://www.w3.org/TR/prov-aq/#[PROV-AQ: Provenance Access and Query]
+** https://www.w3.org/TR/prov-constraints/#[Constraints of the PROV Data Model]
+** https://www.w3.org/TR/prov-n/#[PROV-N: The Provenance Notation]
+
+* Simple Knowledge Organization System
+** https://www.w3.org/TR/skos-reference/[SKOS Simple Knowledge Organization System Reference]
+** https://www.w3.org/TR/skos-primer/[SKOS Simple Knowledge Organization System Primer]
+
+
+=== Generic
+
+* https://schema.org/#[schema.org]
+* http://motools.sourceforge.net/event/event.html
+* https://www.w3.org/TR/owl-time/#[Time Ontology in OWL]
+* https://www.w3.org/TR/vocab-adms/#[Asset Description Metadata Schema (ADMS)]
+* https://www.w3.org/ns/locn#[ISA Programme Location Core Vocabulary]
+
+
+=== vocab
+
+* https://vocab.org/vann/#[VANN: A vocabulary for annotating vocabulary descriptions]
+* https://www.w3.org/TR/rdf-schema/
+* https://www.w3.org/2009/08/skos-reference/skos.html#[SKOS Simple Knowledge Organization System Namespace Document]
+
+=== Data
+
+* https://www.w3.org/TR/vocab-data-cube/#[The RDF Data Cube Vocabulary]
+* https://www.w3.org/TR/vocab-ssn/#[Semantic Sensor Network Ontology]
+* SDMX
+** http://purl.org/linked-data/sdmx/2009/dimension#
+
+=== Organizational
+
+* https://www.w3.org/ns/person#[ISA Programme Person Core Vocabulary]
+* http://xmlns.com/foaf/spec/#[FOAF Vocabulary Specification 0.99]
+* https://vocab.org/bio/#[BIO: A vocabulary for biographical information]
+* https://www.w3.org/TR/vocab-org/#[The Organization Ontology]
+
+=== Products
+
+* http://www.heppnetz.de/ontologies/goodrelations/v1.html
+
+== Authors
+
+=== W3C / w3.org
+
+
+
+== ...
+
+The Statistical Core Vocabulary
+http://sw.joanneum.at/scovo/schema.html
+
+
+== Relational Ontology
+
+----
+http://www.ontobee.org/ontology/RO
+http://obofoundry.org/ontology/ro.html
+
+http://purl.obolibrary.org/obo/ro.owl
+http://purl.obolibrary.org/obo/ro/core.owl
+
+
+https://github.com/oborel/obo-relations/
+https://github.com/oborel/obo-relations/wiki/ROGuide
+https://github.com/oborel/obo-relations/wiki/ROAndBFO
+https://github.com/oborel/obo-relations/wiki/ROCore
+
+
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/ro.owl
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/ro/core.owl
+
+protege.sh http://purl.obolibrary.org/obo/ro.owl
+----
+
+----
+wget -c http://purl.obolibrary.org/obo/ro.owl
+riot --out TURTLE ro.owl > ro.ttl
+robot merge --input ro.owl --output ro-merged.ttl
+
+sparql --query <(echo "$(cat prefixes.sparql) "'SELECT * WHERE { ?s (rdf:type / ( rdfs:subPropertyOf | rdfs:subClassOf )* ) rdf:Property }') --data ro-merged.ttl
+----
+
+
+== BFO
+
+----
+http://www.ontobee.org/ontology/BFO
+http://www.obofoundry.org/ontology/bfo.html
+
+http://purl.obolibrary.org/obo/bfo.owl
+----
+
+http://www.ontobee.org/ontology/bfo
+https://github.com/bfo-ontology/BFO/wiki
+https://raw.githubusercontent.com/BFO-ontology/BFO/master/releases/2.0/bfo.owl
+
+https://gitlab.com/aucampia/scratchpad/-/raw/master/BFO2-Reference.pdf
+https://github.com/BFO-ontology/BFO/tree/master/src/tools/
+
+http://www.obofoundry.org/ontology/bfo.html
+http://purl.obolibrary.org/obo/bfo.owl
+
+https://raw.githubusercontent.com/BFO-ontology/BFO/master/releases/2.0/bfo.owl
+
+https://www.ebi.ac.uk/ols/ontologies/bfo
+http://www.visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/BFO-ontology/BFO/master/releases/2.0/bfo.owl
+http://www.visualdataweb.de/webvowl/#iri=https://raw.githubusercontent.com/BFO-ontology/BFO/master/releases/2.0/bfo.owl
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/bfo.owl
+
+
+https://github.com/BFO-ontology/BFO2
+
+
+https://github.com/BFO-ontology/BFO2/blob/master/ontology/src/bfo.owl
+
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/bfo.owl
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/bfo_ro.owl
+
+
+
+part of: http://www.ontobee.org/ontology/RO?iri=http://purl.obolibrary.org/obo/BFO_0000050
+
+http://purl.obolibrary.org/obo/bfo.owl
+
+
+
+https://basic-formal-ontology.org/users.html
+
+
+
+== OBOFoundry
+
+=== ENVO
+
+http://www.obofoundry.org/ontology/envo.html
+http://purl.obolibrary.org/obo/envo.owl
+http://www.ontobee.org/ontology/envo
+
+=== IAO
+
+http://www.obofoundry.org/ontology/iao.html
+http://purl.obolibrary.org/obo/iao.owl
+http://www.ontobee.org/ontology/iao
+
+https://github.com/information-artifact-ontology/IAO/
+https://github.com/information-artifact-ontology/IAO/blob/master/src/ontology/iao-edit.owl
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/iao.owl
+
+wget https://raw.githubusercontent.com/information-artifact-ontology/IAO/master/iao.owl
+
+wget -c https://raw.githubusercontent.com/information-artifact-ontology/IAO/master/src/ontology/iao-edit.owl
+riot --out TURTLE iao-edit.owl > iao-edit.ttl
+
+
+=== SWO
+
+http://www.obofoundry.org/ontology/swo.html
+http://purl.obolibrary.org/obo/swo.owl
+http://www.ontobee.org/ontology/swo
+
+https://github.com/allysonlister/swo
+
+
+http://www.visualdataweb.de/webvowl/#iri=http://purl.obolibrary.org/obo/swo.owl
+
+wget -c https://raw.githubusercontent.com/allysonlister/swo/master/release/swo.owl
+riot --out TURTLE swo.owl > swo.ttl
+
+=== Other
+
+http://www.obofoundry.org/ontology/sepio.html
+http://www.ontobee.org/ontology/sepio
+
+http://schema.org/
+https://schema.org/docs/developers.html
+https://schema.org/version/latest/schemaorg-current-http.ttl
+
+
+== Incoming
+
+* https://ukparliament.github.io/ontologies/#[]
+* https://github.com/ewilderj/doap/wiki
+* http://schema.theodi.org/odrs/
+* https://www.w3.org/TR/void/
+* http://silkframework.org/
+
+== FOAF
+
+----
+wget -O foaf.rdf http://xmlns.com/foaf/spec/index.rdf
+riot --out TURTLE foaf.rdf > foaf.ttl
+----
+
+
+
+== urls
+
+----
+https://www.w3.org/2006/vcard/ns
+----
+
+
+== files
+
+----
+wget -O owl.ttl https://www.w3.org/2002/07/owl
+wget -O foaf.rdf http://xmlns.com/foaf/spec/index.rdf
+riot --out TURTLE foaf.rdf > foaf.ttl
+curl -LOJ https://www.dublincore.org/specifications/dublin-core/dcmi-terms/dublin_core_elements.ttl
+curl -L -o goodrelations-v1.owl.xml http://purl.org/goodrelations/v1.owl
+riot --out TURTLE goodrelations-v1.owl.xml > goodrelations-v1.owl.ttl
+curl -LOJ https://www.w3.org/TR/dx-prof/rdf/prof.ttl
+curl -LOJ https://www.w3.org/ns/ssn/
+curl -LOJ https://www.w3.org/ns/sosa/
+curl -LOJ https://raw.githubusercontent.com/w3c/sdw/gh-pages/time/rdf/time.ttl
+curl -LOJ https://raw.githubusercontent.com/UKGovLD/publishing-statistical-data/master/specs/src/main/vocab/cube.ttl
+
+curl -L -o cc-schema.rdf.xml https://creativecommons.org/schema.rdf
+riot --out TURTLE cc-schema.rdf.xml > cc-schema.rdf.ttl
+
+
+curl -L --header "Accept: text/turtle" http://purl.org/vocab/vann/
+
+wget -O skos.rdf http://www.w3.org/TR/skos-reference/skos.rdf
+riot --out TURTLE skos.rdf > skos.ttl
+
+https://lov.linkeddata.es/dataset/lov/vocabs/geo
+
+sparql --desc $(sed 's$%%FILEPATH%%$'"$(readlink -f foaf.ttl)"'$g' ~/d.icat/rdf/jena-desc.ttl > /tmp/jena-desc.ttl; echo /tmp/jena-desc.ttl) --query <(echo "$(cat prefixes.sparql) "'SELECT * WHERE { ?s (rdf:type) rdf:Property }')
+----

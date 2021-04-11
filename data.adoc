@@ -1,0 +1,17 @@
+= ...
+
+* https://data.worldbank.org/
+* https://github.com/awesomedata/awesome-public-datasets
+* https://github.com/DigitalCommonsLab/awesome-opendata
+* https://datahub.io/core/exchange-rates
+
+* https://www.icaew.com/library/subject-gateways/financial-markets/knowledge-guide-to-exchange-rates/historical-exchange-rates
+* https://datahub.io/core/exchange-rates#resource-daily
+
+* https://sdw.ecb.europa.eu/
+
+
+* https://www.europeandataportal.eu/en/impact-studies/country-insights/norway
+
+* https://datacatalogs.org/portal/data-norge-no
+* https://data.norge.no/

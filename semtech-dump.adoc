@@ -1,0 +1,180 @@
+= ...
+
+aa
+
+== NASA/JPL
+
+https://indico.esa.int/event/310/contributions/4581/attachments/3514/4653/Presentation_-_1430_-_Hans-Peter_de_Koning.pdf#[Learning from NASA JPL’s Ontology
+development using OWL and OML]
+
+https://github.com/JPL-IMCE
+
+
+https://www.phoenix-int.com/wp-content/uploads/2018/05/Phx2018UC_MBSE_NASA-JPL_Brower-Delp.pdf#[NASA JPL Systems Environment]
+
+https://github.com/Open-MBEE/mms-rdf
+
+
+http://www.omgwiki.org/OMGSysML/lib/exe/fetch.php?media=sysml-oslc:mapping_sysml_to_rdf_vocabulary_-_april_28_2014.pdf#[Mapping SysML to RDF Vocabulary]
+
+
+https://jazz.net/ns/
+https://jazz.net/wiki/bin/view/LinkedData/RsaUmlVocabulary#Component
+
+
+imagesdir = {imagesdir}
+
+image::/var/tmp/pnggrad8rgb.png[]
+
+
+== 444223
+
+https://www.w3.org/ns/person#[ISA Programme Person Core Vocabulary]
+
+https://www.w3.org/TR/vocab-org/#[The Organization Ontology]
+
+https://vocab.org/bio/#[BIO: A vocabulary for biographical information]
+
+https://vocab.org/#[vocab.org is an open URI space for vocabularies such as RDF Schemas or XML Namespace documents.]
+
+https://www.w3.org/community/opengov/wiki/Main_Page#[]
+
+https://www.w3.org/community/geosemweb/wiki/Main_Page#[]
+
+== advocate
+
+https://openstates.org/
+
+https://www.w3.org/2009/Talks/0615-qbe/
+
+https://www.popoloproject.com/
+
+https://ci.mines-stetienne.fr/pep/
+
+https://www.w3.org/TR/vc-data-model/
+
+
+== AI
+
+https://medium.com/oxford-semantic-technologies/ask-the-oxford-professors-the-interplay-between-machine-learning-and-semantic-reasoning-f61f14f47be
+https://towardsdatascience.com/ais-next-step-abstraction-reasoning-db2d90e82799
+https://aibusiness.com/document.asp?doc_id=760596
+https://www.poolparty.biz/semantic-ai/
+https://m.dexlabanalytics.com/blog/more-than-statistics-machine-learning-needs-semantics-explained
+https://medium.com/my-journey-in-the-land-of-ai/statistical-vs-cognitive-approach-in-the-development-of-smart-applications-c1102b6ebf53
+https://www.jstor.org/stable/10.5325/style.53.3.0281?seq=1
+
+https://www.datasciencecentral.com/profiles/blogs/six-core-aspects-of-semantic-ai
+
+
+https://en.wikipedia.org/wiki/Symbolic_artificial_intelligence
+https://en.wikipedia.org/wiki/Neural_network
+
+https://www.poolparty.biz/wp-content/uploads/2018/06/Semantic-AI-white-paper_en.pdf
+
+https://arxiv.org/abs/2009.09070
+
+////
+semantic reasoning ...
+statistical vs semantic
+semantic web and deep learning
+Semantic AI is the combination of methods derived from symbolic AI and statistical AI
+////
+
+== 2342332
+
+https://ontola.io/what-is-linked-data/#advantages-of-linked-data
+https://www.w3.org/DesignIssues/RDFnot.html
+
+
+
+Towards a New Generation of Ontology Based Data Access
+http://semantic-web-journal.net/system/files/swj2189.pdf
+
+Ontology-Based Data Access: A Survey - Computer Science
+https://www.inf.unibz.it/~calvanese/papers/xiao-etal-IJCAI-2018.pdf
+
+
+https://www.researchgate.net/publication/317140295_Ontology-Based_Data_Access_and_Integration
+https://www.researchgate.net/publication/318123829_Ontology_Based_Data_Access_in_Statoil
+
+https://en.wikipedia.org/wiki/Ontology-based_data_integration
+
+
+https://www.cs.ox.ac.uk/isg/tools/BootOX/
+
+
+== Libraries
+
+
+== Mapping
+
+https://t-code.pl/blog/2020/07/rdf-struggling-case-of-r2rml/
+
+=== RML
+
+https://github.com/carml/carml
+https://rml.io/
+https://rml.io/yarrrml/
+https://rml.io/docs/rml/introduction/
+
+
+=== R2RML
+
+https://www.w3.org/TR/r2rml/
+https://t-code.pl/blog/2020/07/rdf-struggling-case-of-r2rml/
+
+=== SDMX
+
+https://en.wikipedia.org/wiki/SDMX
+https://270a.info/
+
+http://xbrl.squarespace.com/journal/2010/4/22/many-different-forms-of-rdf.html
+https://linked-statistics.github.io/SDMX-Metadata/sdmx-metadata.html
+
+=== XBRL
+
+https://en.wikipedia.org/wiki/XBRL
+
+== ...
+
+https://discuss.rdf.community/
+https://dgraph.io/
+
+https://old.datahub.io/organization
+https://old.datahub.io/dataset?tags=lod&_res_format_limit=0
+https://old.datahub.io/dataset?tags=format-rdf&_res_format_limit=0
+https://old.datahub.io/dataset?res_format=RDF&_res_format_limit=0
+https://old.datahub.io/dataset?_res_format_limit=0&res_format=example%2Frdf%2Bxml
+https://old.datahub.io/dataset?res_format=api%2Fsparql&_res_format_limit=0
+
+https://www.w3.org/wiki/images/7/7b/Linked-financial-data.pdf
+
+https://bankontology.com/
+http://streamreasoning.org/
+
+http://linkeddatacatalog.dws.informatik.uni-mannheim.de/
+
+
+
+https://www.w3.org/TR/dwbp/#[Data on the Web Best Practices]
+
+https://github.com/MaastrichtU-IDS/semanticscience#[Semanticscience Integrated Ontology]
+
+https://patterns.dataincubator.org/book/#[Linked Data Patterns]
+
+http://schema.theodi.org/odrs/
+
+https://www.w3.org/TR/xmlschema-2/
+
+https://github.com/linkml/linkml
+https://github.com/common-workflow-language/schema_salad
+http://berkeleybop.org/software/biolink-model/
+
+https://www-sop.inria.fr/acacia/personnel/phmartin/RDF/conventions.html
+
+https://vest.agrisemantics.org/
+https://github.com/openrif/community
+
+https://snowplowanalytics.com/blog/2014/05/13/introducing-schemaver-for-semantic-versioning-of-schemas/#schemaver
+
