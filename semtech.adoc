@@ -26,6 +26,7 @@
 * https://www.w3.org/TR/rdf-concepts/#[ Resource Description Framework (RDF): Concepts and Abstract Syntax ]
 * https://www.w3.org/TR/rdf-mt/#[ RDF Semantics ]
 * https://www.w3.org/TR/rdf-testcases/#[ RDF Test Cases ]
+* https://www.underlay.org/
 
 === RDF 1.0 Schema
 
@@ -61,6 +62,10 @@
 * https://www.w3.org/TR/sparql11-entailment/#[SPARQL 1.1 Entailment Regimes]
 * https://www.w3.org/TR/sparql11-protocol/#[SPARQL 1.1 Protocol]
 * https://www.w3.org/TR/sparql11-http-rdf-update/#[ SPARQL 1.1 Graph Store HTTP Protocol ]
+
+Other:
+
+* https://www.w3.org/2009/sparql/docs/tests/README.html#[SPARQL1.1: Test case structure]
 
 Tutorials:
 
@@ -119,6 +124,21 @@ Examples:
 
 == Formats
 
+// https://www.iana.org/assignments/media-types/media-types.xhtml
+
+////
+|rdf+xml
+|link:https://www.iana.org/assignments/media-types/application/rdf+xml#[application/rdf+xml]
+|[link:https://www.iana.org/go/rfc3870#[RFC3870]]
+////
+
+////
+|trig
+|link:https://www.iana.org/assignments/media-types/application/trig#[application/trig]
+|[link:https://www.iana.org/assignments/media-types/media-types.xhtml#W3C[W3C]] [link:https://www.iana.org/assignments/media-types/media-types.xhtml#W3C_RDF_Working_Group#[W3C_RDF_Working_Group]]
+////
+
+
 [cols="1h,1,1,1", options="header", frame="none", align="center"]
 |===
 
@@ -127,29 +147,68 @@ Examples:
 |`mime-type`
 |extensions
 
-////
-|rdf+xml
-|link:https://www.iana.org/assignments/media-types/application/rdf+xml#[application/rdf+xml]
-|[link:https://www.iana.org/go/rfc3870#[RFC3870]]
-////
 
-|https://www.w3.org/TR/turtle/#[RDF 1.1 Turtle]
+|https://www.w3.org/TR/n-triples/#[RDF 1.1 N-Triples] (`n-triples`)
+|A line-based syntax for an RDF graph
+|link:https://www.iana.org/assignments/media-types/application/n-triples#[`application/n-triples`]
+|`.nt`
+
+|https://www.w3.org/TR/n-triples/#[RDF 1.1 N-Quads
+] (`n-quads`)
+|A line-based syntax for RDF datasets
+|link:https://www.iana.org/assignments/media-types/application/n-quads#[`application/n-quads`]
+|`.nq`
+
+|https://www.w3.org/TR/turtle/#[RDF 1.1 Turtle] (`turtle`)
 |Terse RDF Triple Language
 |link:https://www.iana.org/assignments/media-types/text/turtle#[`text/turtle`] `application/x-turtle`
 |`.ttl`
 
-|https://www.w3.org/TR/n-quads/#[RDF 1.1 N-Quads]
-|A line-based syntax for RDF datasets
-|link:https://www.iana.org/assignments/media-types/application/n-quads[`application/n-quads`]
-|`.nq`
+|https://www.w3.org/TR/trig/#[RDF 1.1 TriG] (`trig`)
+|RDF Dataset Language
+|link:https://www.iana.org/assignments/media-types/application/trig#[`application/trig`]
+|`.trig`
 
-////
-|trig
-|link:https://www.iana.org/assignments/media-types/application/trig#[application/trig]
-|[link:https://www.iana.org/assignments/media-types/media-types.xhtml#W3C[W3C]] [link:https://www.iana.org/assignments/media-types/media-types.xhtml#W3C_RDF_Working_Group#[W3C_RDF_Working_Group]]
-////
+|https://www.w3.org/TR/json-ld/#[JSON-LD 1.1] (`json-ld`)
+|A JSON-based Serialization for Linked Data
+|link:https://www.iana.org/assignments/media-types/application/ld+json[`application/ld+json`]
+|`.jsonld`
+
+|https://www.w3.org/TR/rdf-json/#[RDF 1.1 JSON Alternate Serialization (RDF/JSON)] (`rdf-json`)
+|a concrete JSON syntax for RDF
+|`application/rdf+json`
+|`.rj`
+
+|https://www.w3.org/TeamSubmission/n3/#[Notation3 (N3)](`n3`)
+|A readable RDF syntax
+|link:https://www.iana.org/assignments/media-types/text/n3[`text/n3`]
+|`.n3`
+
+|https://www.w3.org/TR/rdf-syntax-grammar/#[RDF 1.1 XML Syntax] (`rdf/xml`)
+|An XML syntax for RDF
+|link:https://www.iana.org/assignments/media-types/application/rdf+xml[`application/rdf+xml`]
+|`.rdf`
+
+|https://rml.io/yarrrml/spec/#[YARRRML]
+|A human readable text-based representation for declarative generation rules.
+|None
+|`.yaml`
+
+|https://www.w3.org/Submission/2011/03/#[RDF Header-Dictionary-Triples (HDT)]
+|Binary RDF Representation for Publication and Exchange 
+|`application/x-binary-rdf`
+|`.hdt`
 
 |===
+
+////
+
+|#[...](`...`)
+|...
+|link:https://www.iana.org/assignments/media-types/???/???[`???/??`]
+|`.???`
+
+////
 
 === JSON-LD
 
@@ -320,7 +379,14 @@ LIMIT 10000
 
 === c
 
-https://github.com/drobilla/serd
+* https://github.com/drobilla/serd#[serd] : A lightweight C library for RDF syntax
+* https://github.com/drobilla/sord#[sord] : A lightweight C library for storing RDF in memory
+* https://github.com/dajobe/librdf#[librdf] : Redland librdf RDF API and triple stores
+* https://github.com/dajobe/raptor#[raptor] : Redland Raptor RDF syntax library
+** https://librdf.org/raptor/#[Raptor RDF Syntax Library]
+** https://librdf.org/raptor/api/#[Raptor RDF Syntax Library Manual]
+* https://github.com/dajobe/rasqal#[rasqal] : Redland Rasqal RDF Query Library
+* https://github.com/sisinflab-swot/cowl#[cowl] : A lightweight C library for working with Web Ontology Language (OWL) ontologies
 
 === Javascript
 
@@ -330,16 +396,43 @@ https://github.com/drobilla/serd
 
 === go / golang
 
-* https://github.com/spy16/fabric
-* https://github.com/eBay/akutan
 * https://github.com/deiu/rdf2go
 * https://github.com/knakk/rdf
+
+
+* https://github.com/iand/nquads
+* https://github.com/iand/gordf
+
+* https://github.com/spy16/fabric
+* https://github.com/eBay/akutan
+
 * https://github.com/linkeddata/gold
 * https://github.com/cayleygraph/cayley
 * https://github.com/deltamobile/goraptor
 * https://github.com/ElsevierSoftwareX/SOFTX_2020_76
+* https://github.com/deltamobile/goraptor
+* https://github.com/underlay/go-rdfjs
+* https://github.com/underlay/styx
 
+=== Java
 
+* https://rdf4j.org/
+** https://rdf4j.org/documentation/
+*** https://rdf4j.org/javadoc/latest/
+
+* https://jena.apache.org/
+** https://jena.apache.org/documentation/index.html#[Jena documentation overview]
+** https://jena.apache.org/documentation/javadoc.html#[Jena JavaDoc]
+*** https://jena.apache.org/documentation/javadoc/arq/#[Apache Jena Core]
+*** https://jena.apache.org/documentation/javadoc/arq/#[Apache Jena ARQ]
+
+* https://commons.apache.org/proper/commons-rdf/
+
+=== Python
+
+* https://github.com/RDFLib/rdflib
+** https://rdflib.readthedocs.io/en/stable/
+*** https://rdflib.readthedocs.io/en/stable/apidocs/rdflib.html
 
 == wiki
 
